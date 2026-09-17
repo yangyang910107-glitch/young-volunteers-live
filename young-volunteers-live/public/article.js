@@ -1,29 +1,4 @@
-(function(root){const STAGES=[
-  {
-    "id": "demo",
-    "title": "EXAMPLE 0"
-  },
-  {
-    "id": "keys",
-    "title": "FIND THE KEYS"
-  },
-  {
-    "id": "bridgeDemo",
-    "title": "EXAMPLE 0 · TEXT BRIDGE"
-  },
-  {
-    "id": "combined",
-    "title": "TEXT BRIDGE + WHO"
-  },
-  {
-    "id": "peer",
-    "title": "CHECK & REVISE"
-  },
-  {
-    "id": "exit",
-    "title": "EXIT TICKET"
-  }
-],PROFILES=[
+(function(root){const STAGES=[{"id":"lead","title":"WHAT CAN YOU CONTRIBUTE?"},{"id":"vocabMatch","title":"WORDS & MEANINGS"},{"id":"vocabUse","title":"USE THE WORDS"},{"id":"gist","title":"GET THE BIG PICTURE"},{"id":"demo","title":"EXAMPLE 0"},{"id":"keys","title":"FIND THE KEYS"},{"id":"bridgeDemo","title":"EXAMPLE 0 · TEXT BRIDGE"},{"id":"combined","title":"TEXT BRIDGE + WHO"},{"id":"peer","title":"CHECK & REVISE"},{"id":"response","title":"CHOOSE A VOLUNTEER ROLE"},{"id":"exit","title":"EXIT TICKET · TEAM CHALLENGE"},{"id":"homework","title":"TAKE THE STRATEGY WITH YOU"}],PROFILES=[
   {
     "id": "A",
     "name": "Maya",
