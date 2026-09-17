@@ -68,16 +68,6 @@ module.exports=[
     ],
     "distractors": [
       {
-        "id": "D1",
-        "hits": [
-          [
-            "when I was younger"
-          ],
-          []
-        ],
-        "note": "Familiarity with the centre alone does not show difficulty or recognising someone else’s need."
-      },
-      {
         "id": "A4",
         "hits": [
           [
@@ -168,16 +158,6 @@ module.exports=[
           ]
         ],
         "note": "This helps the organisation, but it is not the leisure-time video skill."
-      },
-      {
-        "id": "D6",
-        "hits": [
-          [],
-          [
-            "training course"
-          ]
-        ],
-        "note": "Training is preparation for the role, not a skill practised for fun."
       }
     ]
   },
@@ -212,16 +192,6 @@ module.exports=[
           []
         ],
         "note": "This only gives an initial assumption and dislike, without discovering the role’s importance."
-      },
-      {
-        "id": "C7",
-        "hits": [
-          [],
-          [
-            "volunteering time in the shop"
-          ]
-        ],
-        "note": "Her current choice does not supply the earlier dislike and the financial reason."
       }
     ]
   },
@@ -248,16 +218,6 @@ module.exports=[
       "before I was given that responsibility ↔ responsibility for others"
     ],
     "distractors": [
-      {
-        "id": "A4",
-        "hits": [
-          [
-            "experienced volunteer"
-          ],
-          []
-        ],
-        "note": "Getting decisions checked is not preparation to take responsibility for other people."
-      },
       {
         "id": "B7",
         "hits": [
@@ -292,28 +252,7 @@ module.exports=[
       "without asking someone else first ↔ more independent",
       "check almost every decision / making those choices ↔ decisions"
     ],
-    "distractors": [
-      {
-        "id": "B8",
-        "hits": [
-          [
-            "no longer feels nearly as difficult"
-          ],
-          []
-        ],
-        "note": "Growing confidence in speaking is not independent decision-making."
-      },
-      {
-        "id": "D6",
-        "hits": [
-          [],
-          [
-            "responsibility"
-          ]
-        ],
-        "note": "Leadership training does not compare dependent and independent decisions."
-      }
-    ]
+    "distractors": []
   },
   {
     "parts": [
@@ -337,16 +276,6 @@ module.exports=[
       "the trip will have to wait until next year ↔ changes own plan"
     ],
     "distractors": [
-      {
-        "id": "A8",
-        "hits": [
-          [],
-          [
-            "continue doing a little"
-          ]
-        ],
-        "note": "Her response to her parents is not a plan changed because of an organisation’s new offer."
-      },
       {
         "id": "B6",
         "hits": [
