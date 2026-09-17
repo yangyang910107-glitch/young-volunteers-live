@@ -77,42 +77,25 @@
   ],
   "rows": [
     {
-      "who": "A",
+      "who": "D",
       "ids": [
-        "A2"
+        "D4",
+        "D5",
+        "D6"
       ],
       "correct": false,
       "hits": [
         [
-          "carrying boxes",
-          "handing out food"
+          "keen to lead activities immediately",
+          "take charge of a group"
         ],
         []
       ],
       "proof": [
-        "carrying boxes / handing out food ↔ work mentioned",
-        "No proof of being too young"
+        "keen to lead activities / take charge of a group ↔ wanted work",
+        "No proof that age prevented the work"
       ],
-      "note": "These tasks did not appeal to Maya. Age did not prevent her doing them."
-    },
-    {
-      "who": "B",
-      "ids": [
-        "B5"
-      ],
-      "correct": false,
-      "hits": [
-        [
-          "collected litter",
-          "planted trees"
-        ],
-        []
-      ],
-      "proof": [
-        "collected litter / planted trees ↔ work mentioned",
-        "No proof of being too young"
-      ],
-      "note": "Leo changed jobs because of his video skills, not an age restriction."
+      "note": "Oliver wanted to lead but had never worked with younger children. Observation and training were required; this was not an age limit."
     },
     {
       "who": "C",
@@ -136,25 +119,6 @@
         "feeding dogs / taking them for walks / work directly with the animals ↔ wanted work",
         "only fifteen / under sixteen ↔ too young"
       ]
-    },
-    {
-      "who": "D",
-      "ids": [
-        "D5",
-        "D6"
-      ],
-      "correct": false,
-      "hits": [
-        [
-          "take charge of a group"
-        ],
-        []
-      ],
-      "proof": [
-        "take charge of a group ↔ wanted work",
-        "No proof of being too young"
-      ],
-      "note": "Oliver needed observation and training before leading; his age was not the restriction."
     }
   ]
 },MODEL_OPTIONS=[
