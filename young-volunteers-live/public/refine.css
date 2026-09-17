@@ -23,7 +23,7 @@ body:not(.teacher) .heading h1{font-size:clamp(30px,3.1vw,44px);font-weight:900;
 .article-tabs .person,.focus-workspace .person{padding:10px 14px}
 .teacher .demo-panel{padding:8px 0;max-width:1160px}
 .teacher .room-line{margin:4px 0 8px;gap:10px}
-.teacher .room-line #student-link{display:none}
+.teacher .room-line #student-link{display:block}
 .demo-panel>.eyebrow{font-size:11px;margin:8px 0}
 .model-question{padding:18px 20px}
 .model-question .keyword-text,.model-question .model-match{font-size:21px;line-height:1.5}
@@ -48,3 +48,7 @@ body:not(.teacher) .heading h1{font-size:clamp(30px,3.1vw,44px);font-weight:900;
 .peer-draft-notice{font-size:13px!important;line-height:1.45!important;padding:10px 12px;background:#fff4d2;border-radius:8px;color:#78572c}
 @media(max-width:760px){.class-key-ideas{grid-template-columns:repeat(2,minmax(0,1fr))}.teacher .steps .step.active{font-size:13px!important}.key-comparison-card{padding:14px 16px}.key-comparison-card .comparison-question{font-size:18px}.chosen-key-idea,.reference-key-idea{font-size:19px}}
 @media(max-width:600px){.focus-question{padding:14px 16px}.focus-workspace #reading,.group-reading{padding:14px 16px}#key-layout .focus-question #question-text{font-size:18px}#key-layout .focus-question #key-caption{font-size:21px}.model-bridge-demo .bridge-comparison tbody th{padding:10px 14px 0}.model-bridge-demo .bridge-comparison td{padding:8px 14px;font-size:17px}.model-bridge-demo .bridge-comparison td:last-child{padding-bottom:12px}.model-bridge-demo .bridge-question{padding:14px 16px;font-size:18px}.model-bridge-demo .key-idea-pair{font-size:19px}.model-bridge-demo .bridge-comparison th:first-child,.model-bridge-demo .bridge-comparison th:last-child{width:100%}.class-key-ideas .chosen-key-idea{font-size:16px}}
+
+/* Show the complete joining URL in every teacher activity. */
+.teacher .room-line{display:flex!important;flex-wrap:wrap;align-items:center}
+.teacher .room-line #student-link{display:block!important;order:4;flex:0 0 100%;min-width:0;max-width:100%;font-size:15px;line-height:1.45;color:var(--green);text-decoration:underline;text-underline-offset:3px;white-space:normal;overflow-wrap:anywhere;word-break:normal;text-overflow:clip;overflow:visible;margin:2px 0 4px}
